@@ -39,8 +39,8 @@
     display: inline-block;
     vertical-align: top; 
     height: 450pt;
-    margin-right: 49pt;
-    margin-left: 49pt;
+    /* margin-right: 49pt; 
+    margin-left: 49pt;*/
 }
 .thirdmodule{
     border-style: inset;
@@ -51,11 +51,6 @@
     display: inline-block;
     vertical-align: top;
     height: 450pt;
-    margin-right: 105pt;
-    margin-left: 105pt;
-}
-.mainphoto{
-    text-align: center;
-    width: 480px;
-    height: 270px;
+    /* margin-right: 105pt; 
+    margin-left: 105pt;*/
 }
