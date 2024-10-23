@@ -1,14 +1,11 @@
 .back{
-    background: linear-gradient(rgb(254, 130, 130),rgb(118, 182, 246)); 
+    background: linear-gradient(rgb(254, 130, 130),rgb(63, 132, 201)); 
 }
 .otctyp{
     padding: 10px;
     margin-top:5px
 }
-.zag2{ 
-    text-align:center;
-}
-.zag1{
+.centre{ 
     text-align:center;
 }
 .photo{
@@ -19,9 +16,9 @@
 .module{
     border-style: ridge;
     margin: 15pt;
-    padding: 19pt;
-    width: 199pt;
-    background: linear-gradient(rgb(118, 182, 246),rgb(254, 130, 130)); 
+    padding: 15pt;
+    width: 20%;
+    background: linear-gradient(rgb(63, 132, 201),rgb(254, 130, 130)); 
     display: inline-block;
     vertical-align: top;
     height: 450pt;
@@ -30,27 +27,15 @@
     width:200pt; 
     height:200pt;
 }
-.secondmodule{
-    border-style: outset;
-    margin: 15pt;
-    padding: 19pt;
-    width: 199pt;
-    background: linear-gradient(rgb(118, 182, 246),rgb(254, 130, 130)); 
-    display: inline-block;
-    vertical-align: top; 
-    height: 450pt;
-    /* margin-right: 49pt; 
-    margin-left: 49pt;*/
+.content{
+    text-align: center;
 }
-.thirdmodule{
-    border-style: inset;
-    margin: 15pt;
-    padding: 19pt;
-    width: 199pt;
-    background: linear-gradient(rgb(118, 182, 246),rgb(254, 130, 130)); 
-    display: inline-block;
-    vertical-align: top;
-    height: 450pt;
-    /* margin-right: 105pt; 
-    margin-left: 105pt;*/
+
+@media(max-width:1400px){
+    .module{
+        width: 200pt;
+    }
 }
+/*max-width все у кого меньше
+min-width все у кого больше*/
+
