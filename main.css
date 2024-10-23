@@ -12,9 +12,9 @@ h1{
     text-align:center;
 }
 .photo{
-    align:middle;
-    width:70;
-    height:70;
+    vertical-align:middle;
+    width:38pt;
+    height:38pt;
 }
 .module{
     border-style: double;
@@ -29,4 +29,28 @@ h1{
 .tanki{
     width:200pt; 
     height:200pt;
+}
+.secondmodule{
+    border-style: double;
+    margin: 15pt;
+    padding: 19pt;
+    width: 199pt;
+    background: linear-gradient(rgb(118, 182, 246),rgb(254, 130, 130)); 
+    display: inline-block;
+    vertical-align: top;
+    height: 450pt;
+    margin-right: 49pt;
+    margin-left: 49pt;
+}
+.thirdmodule{
+    border-style: double;
+    margin: 15pt;
+    padding: 19pt;
+    width: 199pt;
+    background: linear-gradient(rgb(118, 182, 246),rgb(254, 130, 130)); 
+    display: inline-block;
+    vertical-align: top;
+    height: 450pt;
+    margin-right: 105pt;
+    margin-left: 105pt;
 }
