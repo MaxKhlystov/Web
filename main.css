@@ -1,14 +1,14 @@
-html{
+.back{
     background: linear-gradient(rgb(254, 130, 130),rgb(118, 182, 246)); 
 }
-article{
+.otctyp{
     padding: 10px;
     margin-top:5px
 }
-h2{ 
+.zag2{ 
     text-align:center;
 }
-h1{
+.zag1{
     text-align:center;
 }
 .photo{
@@ -17,7 +17,7 @@ h1{
     height:38pt;
 }
 .module{
-    border-style: double;
+    border-style: ridge;
     margin: 15pt;
     padding: 19pt;
     width: 199pt;
@@ -31,19 +31,19 @@ h1{
     height:200pt;
 }
 .secondmodule{
-    border-style: double;
+    border-style: outset;
     margin: 15pt;
     padding: 19pt;
     width: 199pt;
     background: linear-gradient(rgb(118, 182, 246),rgb(254, 130, 130)); 
     display: inline-block;
-    vertical-align: top;
+    vertical-align: top; 
     height: 450pt;
     margin-right: 49pt;
     margin-left: 49pt;
 }
 .thirdmodule{
-    border-style: double;
+    border-style: inset;
     margin: 15pt;
     padding: 19pt;
     width: 199pt;
@@ -53,4 +53,9 @@ h1{
     height: 450pt;
     margin-right: 105pt;
     margin-left: 105pt;
+}
+.mainphoto{
+    text-align: center;
+    width: 480px;
+    height: 270px;
 }
